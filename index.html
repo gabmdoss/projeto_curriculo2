@@ -4,46 +4,40 @@
   <head>
     <title>Gabi QA</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/initial-page.css">
     <meta name="viewport" content="width=device-width, initial-scale 1.0">
     <script src="js/vue.js"></script>
   </head>
 
   <body>
-    <div id="app">
+      <div class="container">
 
-    <div class="foto-perfil">
-      <img src="./foto-perfil2.png" alt="Gabriela Mendes">
-    </div>
-
-      <div class="div1">
-        <div class="titulo">
-          <h1>Gabriela Santos</h1>
+        <div class="foto-perfil">
+          <img src="./foto-perfil2.png" alt="Gabriela Mendes">
+            <div class="linkedin-gabi">
+              <a href="http://www.linkedin.com/in/gabi-mendes/"><img src="./linkedin-gabi.png"></a>
+            </div>
         </div>
-        <nav class="menu">
+
+        <div class="sessao">
           <ul>
+            <div class="nome">
+            <p>Gabriela Mendes</p>
+            </div>
             <li><a href="#">Sobre mim</a></li>
             <li><a href="#">Graduação</a></li>
             <li>Cursos</li>
             <li>Skills</li>
-            <li>Linkedin</li>
             <li>Github</li>
             <li>Playlist</li>
             <li>O que utilizei para desenvolver esse site</li>
           </ul>
+        </div>
+
       </div>
 
-    </div>
-
-    <div class="div2">
-      <footer> &copy; 2021 - Gabriela Santos</footer>
-    </div>
-
-    <script>
-      var app = new vue({
-        el: "#app"
-      })
-    </script>
-
+        <div class="footer">
+          <footer> &copy; 2022 - Gabriela Santos</footer>
+        </div>
   </body>
 </html>

@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+body{
+  background-color: rgb(201, 189, 198);
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto-perfil{
+  align-self:center;
+  padding: 15px 15px 15px 15px;
+  position: relative;
+}
+
+.foto-perfil img{
+  width: 160px;
+  height: 160px;
+  border-radius: 70%;
+  transform: scaleX(-1);
+}
+
+.linkedin-gabi{
+  height: 160px;
+  width: 160px;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  align-self:center;
+  padding: 15px 15px 15px 15px;
+  border-radius: 70%;
+  left: 30px;
+  transform: scaleX(-1);
+}
+
+.foto-perfil:hover .linkedin-gabi { visibility: visible; }
+
+.sessao{
+  align-self:center;
+  padding: 15px 15px 15px 15px;
+}
+
+.nome{
+font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6%;
+  padding: 15px 15px 15px 15px;
+}
